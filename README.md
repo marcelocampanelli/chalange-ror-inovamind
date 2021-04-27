@@ -1,24 +1,17 @@
-# README
+# Challange ROR Inovamind
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version -- 3.0.0
+Install dependencies
+gem install bundle
+gem install rails
 
-Things you may want to cover:
+install mongodb -- https://docs.mongodb.com/manual/installation/
 
-* Ruby version
+bundle install
 
-* System dependencies
+start a service
+sudo systemctl start mongodb
 
-* Configuration
+Acesse: localhost:3000/crawler para rodar o crawler
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Acesse: localhost:3000/quotes?search=tag (trocando 'tag', de acordo como deseje fazer a pesquisa)
